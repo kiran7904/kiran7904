@@ -1,7 +1,7 @@
 # Kiran Kumar Siripurapu
 
 Final-year B.Tech (ECE) student with hands-on experience in **Digital IC Design, RTL development, and SoC-level architectures**.  
-Focused on **RISC-V systems, AMBA-based interconnects, and ASIC implementation flows**, with exposure to both **design and physical implementation**.
+Focused on **RISC-V systems, AMBA-based interconnects, and ASIC implementation flows**, with experience spanning **architecture, RTL, verification, and physical design**.
 
 📍 India  
 📧 kirankumarsiripurapu93@gmail.com  
@@ -10,50 +10,65 @@ Focused on **RISC-V systems, AMBA-based interconnects, and ASIC implementation f
 ---
 
 ## Technical Focus
-- RTL Design and Microarchitecture (RISC-V, pipelined datapaths)
-- Functional Verification using SystemVerilog and Assertions
-- AMBA AXI-based interfaces and SoC interconnects
+- RTL design and microarchitecture for RISC-V–based systems
+- AMBA AXI protocols and SoC interconnect design
+- Functional verification using SystemVerilog and assertions
 - RTL-to-GDSII implementation on Sky130
-- Timing, power, and area–aware digital design
+- Timing-, power-, and area-aware digital design
 
 ---
 
 ## Technical Skills
 - **HDLs**: Verilog, SystemVerilog  
-- **Verification**: SystemVerilog testbenches, Assertions (SVA)  
-- **EDA Tools**: Verilator, Xilinx Vivado, ModelSim / QuestaSim, Synopsys Sentaurus TCAD  
-- **Implementation**: LibreLane, STA, DRC/LVS  
+- **SoC & Protocols**: AMBA AXI4 / AXI4-Lite, memory-mapped I/O  
+- **Verification**: SystemVerilog testbenches, Assertions (SVA), Verilator  
+- **Physical Design**: LibreLane, STA, DRC/LVS, Sky130  
+- **EDA Tools**: Xilinx Vivado, ModelSim / QuestaSim, Synopsys Sentaurus TCAD  
 - **Scripting**: Python, Tcl  
 - **Environment**: Linux  
+
+---
+
+## Work Experience
+
+### Digital IC Design Intern — DeepGrid Semi Pvt. Ltd.
+- Designed and implemented RTL and microarchitecture to scale a **RISC-V SoC (DG-Chip)** from single-core to dual-hart.
+- Implemented **AXI ID–based transaction routing** to support concurrent accesses from multiple harts and peripherals.
+- Integrated **IOPMP** to enforce hardware-level memory access control for accelerator and peripheral masters.
+- Performed architectural analysis for **hypervisor-less static partitioning** in multi-hart systems.
+
+### Semiconductor Device Modeling Intern — NIT Warangal
+- Modeled **sub-3nm Fishbone FETs** using TCAD to study variability and interface trap effects.
+- Extracted key metrics (SS, DIBL, gm, fT) and correlated device behavior with circuit-level performance.
 
 ---
 
 ## Selected Projects
 
 Repository: **[VeriLogicLab](https://github.com/kiran7904/VeriLogicLab)**  
-A collection of RTL and verification-focused digital design projects.
+A curated collection of RTL, verification, and ASIC-oriented digital design projects.
+
+- **AMBA AXI4-Lite Slave Interface IP**  
+  Parameterized AXI4-Lite slave with protocol-compliant channels, verified using SystemVerilog testbenches and assertions, and hardened using LibreLane on Sky130.
+
+- **RISC-V 5-Stage Pipelined Processor Core**  
+  In-order pipeline with hazard detection and stalling logic, verified using Verilator and waveform-based debugging.
 
 - **GIFT-64 Lightweight Cryptography Core**  
-  Round-based 64-bit cipher core implemented in Verilog with FSM-controlled datapath, optimized for low-area embedded applications.
-
-- **RISC-V 5-Stage Pipelined Processor**  
-  In-order pipeline with hazard detection and stalling logic, verified using testbenches and waveform analysis.
+  Round-based 64-bit cipher core optimized for low-area embedded applications and implemented through RTL-to-GDSII flow.
 
 - **I2C Master–Slave Controller**  
-  Supports Standard (100 kHz) and Fast (400 kHz) modes with protocol-compliant control logic.
-
-- **Booth Multiplier**  
-  Signed multiplication unit using Booth encoding for efficient arithmetic implementation.
+  Protocol-compliant controller supporting Standard and Fast modes.
 
 - **FIFO and CDC Synchronizer Designs**  
-  RTL implementations with associated testbenches focusing on safe clock-domain crossings.
+  RTL implementations focusing on safe clock-domain crossings and data integrity.
 
 👉 Full project list: **[VeriLogicLab](https://github.com/kiran7904/VeriLogicLab)**
 
 ---
 
 ## Research Experience
-- Research contributor in **sub-3nm Fishbone FET device modeling** using TCAD
+- Research contributor in **sub-3nm Fishbone FET device modeling** using TCAD  
 - IEEE manuscript under review on **interface trap variability and its impact on scaled device performance**
 
 ---
@@ -67,7 +82,7 @@ A collection of RTL and verification-focused digital design projects.
 
 ## Achievements
 - Solved **70+ RTL-focused problems** on HDLBits  
-- Experience bridging **device-level modeling** with **circuit-level analysis**
+- Experience bridging **device-level modeling** with **circuit-level digital design**
 
 ---
 
