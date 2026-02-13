@@ -1,65 +1,80 @@
-# Hi 👋, I'm Kiran Kumar Siripurapu  
+# Kiran Kumar Siripurapu
 
-🎓 Final-year **B.Tech (ECE)** student at **RGUKT Srikakulam**  
-🔬 Aspiring **VLSI Design & Verification Engineer** | RTL | ASIC | FPGA  
-📍 Based in Visakhapatnam, India  
+Final-year B.Tech (ECE) student with hands-on experience in **Digital IC Design, RTL development, and SoC-level architectures**.  
+Focused on **RISC-V systems, AMBA-based interconnects, and ASIC implementation flows**, with exposure to both **design and physical implementation**.
 
----
-
-## 🚀 About Me  
-- Skilled in **RTL Design**, **Functional Verification**, and **Digital Protocols**  
-- Hands-on with **Verilog/SystemVerilog**, **Vivado**, **ModelSim/QuestaSim**, and **Synopsys Sentaurus TCAD**  
-- Research contributor in **sub-3nm device modeling** (IEEE paper under review)  
-- Passionate about **low-power, high-performance hardware architectures** with focus on **PPA optimization**  
+📍 India  
+📧 kirankumarsiripurapu93@gmail.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/kiran-kumar-siripurapu) | [GitHub](https://github.com/kiran7904)
 
 ---
 
-## 🛠️ Skills  
+## Technical Focus
+- RTL Design and Microarchitecture (RISC-V, pipelined datapaths)
+- Functional Verification using SystemVerilog and Assertions
+- AMBA AXI-based interfaces and SoC interconnects
+- RTL-to-GDSII implementation on Sky130
+- Timing, power, and area–aware digital design
+
+---
+
+## Technical Skills
 - **HDLs**: Verilog, SystemVerilog  
-- **Verification**: Testbench Development, Assertions (SVA)  
-- **EDA Tools**: Vivado, ModelSim, QuestaSim, Synopsys Sentaurus TCAD  
-- **Scripting**: Python  
+- **Verification**: SystemVerilog testbenches, Assertions (SVA)  
+- **EDA Tools**: Verilator, Xilinx Vivado, ModelSim / QuestaSim, Synopsys Sentaurus TCAD  
+- **Implementation**: LibreLane, STA, DRC/LVS  
+- **Scripting**: Python, Tcl  
+- **Environment**: Linux  
 
 ---
 
-## 📂 Featured Projects  
-Here are some of the Verilog projects from my repository [**VeriLogicLab**](https://github.com/kiran7904/VeriLogicLab):  
+## Selected Projects
 
-- 🔐 **[GIFT-64 Lightweight Cryptography Algorithm](https://github.com/kiran7904/VeriLogicLab/tree/main/GIFT%20light%20weight%20Algorithm)** – FSM-based 64-bit block cipher with optimized RTL design  
-- 📡 **[I2C Master-Slave Controller](https://github.com/kiran7904/VeriLogicLab/tree/main/I2C)** – Supports Standard (100kHz) & Fast (400kHz) modes  
-- 🛠️ **[RISC-V (5-Stage Pipeline)](https://github.com/kiran7904/VeriLogicLab/tree/main/RISC-V)** – Includes MEM stage updates and testbenches  
-- 🧮 **[Booth’s Multiplier](https://github.com/kiran7904/VeriLogicLab/tree/main/booth_multiplier)** – Efficient signed multiplication design  
-- 📦 **[Basic FIFO](https://github.com/kiran7904/VeriLogicLab/tree/main/Basic%20FIFO)** – RTL design and testbench  
-- ⏱️ **[Clock Domain Crossing Synchronizer](https://github.com/kiran7904/VeriLogicLab/tree/main/clock%20domain%20crossing)** – Reliable CDC implementation  
+Repository: **[VeriLogicLab](https://github.com/kiran7904/VeriLogicLab)**  
+A collection of RTL and verification-focused digital design projects.
 
-👉 Explore all projects here: [**VeriLogicLab**](https://github.com/kiran7904/VeriLogicLab)  
+- **GIFT-64 Lightweight Cryptography Core**  
+  Round-based 64-bit cipher core implemented in Verilog with FSM-controlled datapath, optimized for low-area embedded applications.
 
----
+- **RISC-V 5-Stage Pipelined Processor**  
+  In-order pipeline with hazard detection and stalling logic, verified using testbenches and waveform analysis.
 
-## 📜 Certifications  
-- **SystemVerilog for Verification** – Siemens EDA  
-- **VLSI Design Flow** – Maven Silicon  
-- **Timing Analysis in Physical Design** – NPTEL  
+- **I2C Master–Slave Controller**  
+  Supports Standard (100 kHz) and Fast (400 kHz) modes with protocol-compliant control logic.
 
----
+- **Booth Multiplier**  
+  Signed multiplication unit using Booth encoding for efficient arithmetic implementation.
 
-## 🏆 Achievements  
-- Solved **70+ RTL design challenges** on HDLBits  
-- Contributed to **IEEE manuscript** on *Interface Trap Variations on Fishbone FETs for Sub-3nm Applications*  
+- **FIFO and CDC Synchronizer Designs**  
+  RTL implementations with associated testbenches focusing on safe clock-domain crossings.
+
+👉 Full project list: **[VeriLogicLab](https://github.com/kiran7904/VeriLogicLab)**
 
 ---
 
-## 📊 GitHub Stats  
+## Research Experience
+- Research contributor in **sub-3nm Fishbone FET device modeling** using TCAD
+- IEEE manuscript under review on **interface trap variability and its impact on scaled device performance**
 
-![Kiran's GitHub stats](https://github-readme-stats.vercel.app/api?username=kiran7904&show_icons=true&theme=tokyonight)  
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kiran7904&layout=compact&theme=tokyonight)  
+---
+
+## Certifications
+- SystemVerilog for Design and Verification — Siemens EDA  
+- VLSI Design Flow: RTL to GDS — NPTEL  
+- Physical Design and Timing Analysis — NPTEL  
 
 ---
 
-## 🌐 Connect with Me  
-- 💼 [LinkedIn](https://www.linkedin.com/in/kiran-kumar-siripurapu)  
-- 📧 [Email](mailto:kirankumarsiripurapu93@gmail.com)  
-- 🖥️ [GitHub](https://github.com/kiran7904)  
+## Achievements
+- Solved **70+ RTL-focused problems** on HDLBits  
+- Experience bridging **device-level modeling** with **circuit-level analysis**
 
 ---
-⭐️ *Thanks for visiting my profile! Feel free to explore my repositories and connect with me.*  
+
+## GitHub Activity
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=kiran7904&show_icons=true&theme=default)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=kiran7904&layout=compact&theme=default)
+
+---
+
+If you are working on **RTL design, verification, or SoC-level development**, feel free to connect.
