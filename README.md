@@ -70,10 +70,7 @@ A collection of RTL and verification-focused digital design projects.
 - Experience bridging **device-level modeling** with **circuit-level analysis**
 
 ---
-
-## GitHub Activity
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=kiran7904&show_icons=true&theme=default)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=kiran7904&layout=compact&theme=default)
+## 📊 GitHub Stats ![Kiran's GitHub stats](https://github-readme-stats.vercel.app/api?username=kiran7904&show_icons=true&theme=tokyonight) ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kiran7904&layout=compact&theme=tokyonight) --- ## 🌐 Connect with Me - 💼 [LinkedIn](https://www.linkedin.com/in/kiran-kumar-siripurapu) - 📧 [Email](mailto:kirankumarsiripurapu93@gmail.com) - 🖥️ [GitHub](https://github.com/kiran7904)
 
 ---
 
