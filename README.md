@@ -1,89 +1,84 @@
-# Kiran Kumar Siripurapu
+# Hi there, I'm Kiran Kumar Siripurapu 👋
 
-Final-year B.Tech (ECE) student with hands-on experience in **Digital IC Design, RTL development, and SoC-level architectures**.  
-Focused on **RISC-V systems, AMBA-based interconnects, and ASIC implementation flows**, with experience spanning **architecture, RTL, verification, and physical design**.
+**B.Tech ECE Graduate (2026)** | RTL Design Engineer | RISC-V & ASIC Enthusiast
 
-📍 India  
-📧 kirankumarsiripurapu93@gmail.com  
-🔗 [LinkedIn](https://www.linkedin.com/in/kiran-kumar-siripurapu) | [GitHub](https://github.com/kiran7904)
+I'm passionate about building efficient digital hardware — from **RTL design** to **tape-out**. I love working on **RISC-V processors**, **AMBA interconnects**, and taking designs all the way from specification to silicon using open-source EDA tools.
 
----
-
-## Technical Focus
-- RTL design and microarchitecture for RISC-V–based systems
-- AMBA AXI protocols and SoC interconnect design
-- Functional verification using SystemVerilog and assertions
-- RTL-to-GDSII implementation on Sky130
-- Timing-, power-, and area-aware digital design
+Currently open to **RTL Design / SoC Design / Verification** roles.
 
 ---
 
-## Technical Skills
-- **HDLs**: Verilog, SystemVerilog  
-- **SoC & Protocols**: AMBA AXI4 / AXI4-Lite, memory-mapped I/O  
-- **Verification**: SystemVerilog testbenches, Assertions (SVA), Verilator  
-- **Physical Design**: LibreLane, STA, DRC/LVS, Sky130  
-- **EDA Tools**: Xilinx Vivado, ModelSim / QuestaSim, Synopsys Sentaurus TCAD  
-- **Scripting**: Python, Tcl  
-- **Environment**: Linux  
+### 🛠️ Technical Skills
+
+- **Languages**: SystemVerilog, Verilog, C++ (Basics), Python, Tcl
+- **Architectures**: RISC-V RV32I, AMBA AXI4/AXI4-Lite, IOPMP, Round-Robin Arbiter
+- **Verification**: Cocotb, SystemVerilog Assertions (SVA), Verilator, Testbenches
+- **EDA Tools**: OpenLane, Yosys, Vivado, STA, Sky130 PDK
+- **Others**: Linux, Git, FSM Design, Pipelined Architectures
 
 ---
 
-## Work Experience
+### 🚀 Notable Projects
 
-### Digital IC Design Intern — DeepGrid Semi Pvt. Ltd.
-- Designed and implemented RTL and microarchitecture to scale a **RISC-V SoC (DG-Chip)** from single-core to dual-hart.
-- Implemented **AXI ID–based transaction routing** to support concurrent accesses from multiple harts and peripherals.
-- Integrated **IOPMP** to enforce hardware-level memory access control for accelerator and peripheral masters.
-- Performed architectural analysis for **hypervisor-less static partitioning** in multi-hart systems.
+All major projects are **independently taped-out** on **Sky130 PDK** using OpenLane (100 MHz, zero timing violations).
 
-### Semiconductor Device Modeling Intern — NIT Warangal
-- Modeled **sub-3nm Fishbone FETs** using TCAD to study variability and interface trap effects.
-- Extracted key metrics (SS, DIBL, gm, fT) and correlated device behavior with circuit-level performance.
+#### 1. [5-Stage RV32I Pipelined Processor Core](https://github.com/kiran7904/RTL-Implementation-of-an-In-Order-5-Stage-RV32I-Pipeline)
+- Designed a complete in-order 5-stage pipeline with hazard detection, data forwarding, and stall logic.
+- 11 RTL modules with proper inter-stage synchronization.
+- **Metrics**: 199 cells | 1,836 µm²
 
----
+#### 2. [AXI4-Lite Slave Interface IP](https://github.com/kiran7904/axi4-lite-slave-ip)
+- Parameterized AMBA-compliant AXI4-Lite slave with WSTRB support.
+- Fully verified using Cocotb + Verilator testbenches.
+- **Metrics**: 512 cells | 7,767 µm²
 
-## Selected Projects
+#### 3. [GIFT-64 Lightweight Cryptography Core](https://github.com/kiran7904/gift64-crypto-core)
+- Area-optimized round-based 64-bit block cipher.
+- Complete encrypt-decrypt verification using Cocotb.
+- **Metrics**: 3,409 cells | 36,036 µm²
 
-Repository: **[VeriLogicLab](https://github.com/kiran7904/VeriLogicLab)**  
-A curated collection of RTL, verification, and ASIC-oriented digital design projects.
-
-- **AMBA AXI4-Lite Slave Interface IP**  
-  Parameterized AXI4-Lite slave with protocol-compliant channels, verified using SystemVerilog testbenches and assertions, and hardened using LibreLane on Sky130.
-
-- **RISC-V 5-Stage Pipelined Processor Core**  
-  In-order pipeline with hazard detection and stalling logic, verified using Verilator and waveform-based debugging.
-
-- **GIFT-64 Lightweight Cryptography Core**  
-  Round-based 64-bit cipher core optimized for low-area embedded applications and implemented through RTL-to-GDSII flow.
-
-- **I2C Master–Slave Controller**  
-  Protocol-compliant controller supporting Standard and Fast modes.
-
-- **FIFO and CDC Synchronizer Designs**  
-  RTL implementations focusing on safe clock-domain crossings and data integrity.
-
-👉 Full project list: **[VeriLogicLab](https://github.com/kiran7904/VeriLogicLab)**
+#### Other Works
+- I2C Master-Slave Controller
+- Async FIFO with Gray-code CDC Synchronizer
+- Full collection → **[VeriLogicLab](https://github.com/kiran7904/VeriLogicLab)**
 
 ---
 
-## Research Experience
-- Research contributor in **sub-3nm Fishbone FET device modeling** using TCAD  
-- IEEE manuscript under review on **interface trap variability and its impact on scaled device performance**
+### 💼 Professional Experience
+
+- **Digital IC Design Intern** @ DeepGrid Semi Pvt. Ltd. (Nov 2025 – Apr 2026)  
+  Worked on **dual-hart RISC-V Edge-AI SoC**. Designed AXI Arbiter and IOPMP security module.
+
+- **Device Modeling Research Intern** @ NIT Warangal (May 2025 – Jul 2025)  
+  Characterized sub-3nm Fishbone FETs using TCAD. Co-author of paper accepted in **IEEE Transactions on Electron Devices**.
 
 ---
 
-## Certifications
-- SystemVerilog for Design and Verification — Siemens EDA  
-- VLSI Design Flow: RTL to GDS — NPTEL  
-- Physical Design and Timing Analysis — NPTEL  
+### 📚 Research & Publications
+
+- **Co-author**: *Interface Trap-Induced Performance Degradation in Fishbone FET: A Reliability Study*  
+  *IEEE Transactions on Electron Devices* (Accepted)
 
 ---
 
-## Achievements
-- Solved **70+ RTL-focused problems** on HDLBits  
-- Experience bridging **device-level modeling** with **circuit-level digital design**
+### 🏆 Achievements
+
+- Successfully taped-out **3 RTL IPs** on Sky130 PDK
+- Solved **70+** problems on HDLBits
+- NPTEL Certifications in VLSI Design Flow & Physical Design
 
 ---
 
-If you are working on **RTL design, verification, or SoC-level development**, feel free to connect.
+### 📫 Let's Connect!
+
+I'm actively looking for opportunities in **RTL Design, SoC Architecture, or Verification**.
+
+Feel free to reach out if you're working in digital design or RISC-V domain!
+
+- Email: kirankumarsiripurapu93@gmail.com
+- LinkedIn: [Connect](https://www.linkedin.com/in/kiran-kumar-siripurapu)
+- Portfolio: [kiran-mu.vercel.app](https://kiran-mu.vercel.app/)
+
+---
+
+*Made with ❤️ for open-source hardware*
