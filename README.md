@@ -1,12 +1,24 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&color=00D4FF&center=true&vCenter=true&width=750&lines=Hi%2C+I'm+Kiran+Kumar+Siripurapu+%F0%9F%91%8B;RTL+Design+%7C+RISC-V+%7C+ASIC+Engineer;Taped+out+on+Sky130+%E2%80%94+100+MHz%2C+0+violations;Open+to+RTL+%2F+SoC+%2F+Verification+Roles" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&color=00D4FF&center=true&vCenter=true&width=750&lines=Hi%2C+I'm+Kiran+Kumar+Siripurapu+%F0%9F%91%8B;RTL+Design+%7C+Physical+Design+%7C+RISC-V+Engineer;Full+RTL-to-GDS+Flow+%E2%80%94+Sky130+%C2%B7+Nangate45+%C2%B7+ASAP7;Open+to+RTL+%2F+PD+%2F+Verification+Roles" alt="Typing SVG" />
 
 <br/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kiran-kumar-siripurapu)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://kiran-mu.vercel.app/)
-[![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kirankumarsiripurapu93@gmail.com)
+[
+
+![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)
+
+](https://www.linkedin.com/in/kiran-kumar-siripurapu)
+[
+
+![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)
+
+](https://kiran-mu.vercel.app/)
+[
+
+![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)
+
+](mailto:kirankumarsiripurapu93@gmail.com)
 
 </div>
 
@@ -14,18 +26,23 @@
 
 ## 👨‍💻 About Me
 
-RTL Design Engineer and B.Tech ECE graduate (2026) with hands-on experience taking silicon designs from **microarchitecture spec to timing-clean netlist on Sky130**. I own blocks end-to-end — HDL, SDC constraints, lint, simulation, and tape-out.
+RTL Design & Physical Design Engineer, B.Tech ECE (2026), with hands-on experience taking silicon designs from **microarchitecture spec to timing-clean GDSII** across Sky130, Nangate45, and ASAP7. I own blocks end-to-end — HDL, SDC constraints, synthesis, floorplanning, CTS, routing, STA, and tape-out.
 
-- 🏭 **6 months @ DeepGrid Semi Pvt. Ltd.** as RTL owner of the **AXI4 interconnect fabric and IOPMP security module** for a dual-hart RISC-V edge-AI SoC — wrote production SystemVerilog, authored SDC constraints, achieved timing signoff, and isolated 7 integration bugs across IP boundaries
+- 🏭 **6 months @ DeepGrid Semi Pvt. Ltd.** as RTL owner of the **AXI4 interconnect fabric and 16-region IOPMP security module** for a dual-hart RISC-V edge-AI SoC — wrote production SystemVerilog, authored SDC constraints and SVA assertions, achieved timing signoff, and debugged 7 integration issues across IP boundaries using GTKWave
+
+- ⚙️ Took the **Ariane 64-bit RISC-V CPU** through a full RTL-to-GDSII physical design flow on **Nangate45 using OpenROAD** — floorplanning, PDN, macro placement, CTS, and detailed routing, plus Tcl-scripted multicycle-path SDC constraints across 8 pipeline blocks (multiplier, scoreboard, and others), closing timing at **450 MHz with zero hold violations**
 
 - ⚙️ Designed two complex SoC-facing RTL blocks independently:
   - **Parameterized N:M AXI4 crossbar** — weighted round-robin arbitration, per-master outstanding-transaction tracking, AXI-ID response routing, register slices on all 5 channels, 2FF CDC synchronizers, deadlock-free microarchitecture
   - **RV32I pipelined processor** — dual AXI4-Lite master ports, complete hazard resolution (RAW stall, EX-EX/MEM-EX forwarding, branch flush), all 37 base integer instructions, verified against a Python ISA reference model
 
-- 🔬 **Research Intern @ NIT Warangal** — characterized sub-5nm Fishbone FETs in Sentaurus TCAD; **co-author on IEEE Transactions on Electron Devices (accepted)**
+- 🔬 **Research Intern @ NIT Warangal** — characterized sub-3nm Fishbone FETs in Sentaurus TCAD; **co-author on IEEE Transactions on Electron Devices (accepted)**
 
-- 🎯 **Every project independently taped out** on Sky130B PDK — 100 MHz, zero timing violations across all designs
-- 🛠️ Experienced in **Yosys, OpenSTA, Vivado** for synthesis and STA; NPTEL-certified in VLSI Physical Design and RTL-to-GDS flow
+- 🎯 **Every RTL project independently taped out** on Sky130B PDK via OpenLane — 100 MHz, zero timing violations across all designs
+
+- 🛠️ Full-flow tooling: **OpenROAD, OpenSTA, Yosys, Vivado, KLayout, GTKWave, Verible**; NPTEL-certified in VLSI Physical Design and RTL-to-GDS flow
+
+- 🎓 B.Tech Electronics & Communication Engineering, RGUKT Srikakulam (AP IIIT) — 2022–2026, CGPA 8.2/10
 
 ---
 
@@ -36,11 +53,13 @@ RTL Design Engineer and B.Tech ECE graduate (2026) with hands-on experience taki
 | Category | Skills |
 |---|---|
 | **HDL** | SystemVerilog (IEEE 1800-2017) · Verilog |
-| **Architectures** | RISC-V RV32I · AMBA AXI4 / AXI4-Lite · IOPMP · Systolic Arrays |
+| **Architectures & Protocols** | RISC-V RV32I · Ariane (64-bit RISC-V) · AMBA AXI4 / AXI4-Lite · APB · IOPMP · Systolic Arrays |
 | **Verification** | SVA · Cocotb · Verilator · OOP Testbenches · Scoreboards · Functional Coverage |
-| **EDA / Synthesis** | OpenLane · Yosys · Vivado · QuestaSim / ModelSim · STA · Sky130 PDK |
-| **Scripting** | Python · Tcl · MATLAB (DSP) |
-| **Other** | FSM Design · Pipelined Architectures · Clock Domain Crossing · Linux · Git |
+| **Physical Design Flow** | Floorplanning · PDN · Standard Cell Placement · Clock Tree Synthesis (CTS) · Global & Detailed Routing · STA · Setup/Hold Timing Closure |
+| **EDA / Synthesis Tools** | OpenROAD · OpenLane · Yosys · Vivado · OpenSTA · QuestaSim / ModelSim · KLayout · GTKWave · Verible |
+| **PDKs / Process Nodes** | Sky130 (A/B) · Nangate45 (45nm) · ASAP7 (7nm Predictive FinFET) |
+| **Scripting** | Python · Tcl (SDC constraints) · MATLAB (DSP) |
+| **Other** | FSM Design · Pipelined Architectures · Clock Domain Crossing (CDC) · Linux · Git |
 
 </div>
 
@@ -48,11 +67,28 @@ RTL Design Engineer and B.Tech ECE graduate (2026) with hands-on experience taki
 
 ## 🚀 Featured Projects
 
-> **Every project below is independently taped out on Sky130B PDK** via OpenLane — **100 MHz, zero timing violations across all designs.**
+> Full-stack silicon engineering — RTL through physical design, with several designs carried all the way to a clean tape-out.
 
 ---
 
-### 🔷 [RISC-V-RV32I-Pipeline](https://github.com/kiran7904/RISC-V-RV32I-Pipeline) · ![SystemVerilog](https://img.shields.io/badge/-SystemVerilog-blue?style=flat-square) · `Updated 11 hours ago`
+### 🔷 [Ariane RISC-V CPU — Physical Design & Timing Closure (450 MHz)](https://github.com/kiran7904/Ariane-133)
+
+> End-to-end RTL-to-GDSII physical design for the 64-bit Ariane CPU on Nangate45 using OpenROAD.
+
+| Aspect | Detail |
+|---|---|
+| **PDK / Node** | Nangate45 (45nm) |
+| **Flow Steps** | Floorplanning · PDN · Macro placement · CTS · Global & Detailed Routing |
+| **Constraints** | Tcl-scripted multicycle-path SDC across 8 pipeline blocks (multiplier, scoreboard, etc.) |
+| **Result** | Closed setup TNS from −67k ns to **+0.4 ns positive slack**, zero hold violations, at 450 MHz |
+
+---
+
+### 🔷 [RISC-V-RV32I-Pipeline](https://github.com/kiran7904/RISC-V-RV32I-Pipeline) · 
+
+![SystemVerilog](https://img.shields.io/badge/-SystemVerilog-blue?style=flat-square)
+
+ · `Updated 11 hours ago`
 
 > In-order 5-stage RISC-V RV32I pipeline with dual AXI4-Lite master ports (IMEM + DMEM).  
 > The latest evolution of my processor design — actively maintained.
@@ -71,7 +107,11 @@ RTL Design Engineer and B.Tech ECE graduate (2026) with hands-on experience taki
 
 ---
 
-### 🔷 [AXI4-N-M-Crossbar-Interconnect](https://github.com/kiran7904/AXI4-N-M-Crossbar-Interconnect) · ![SystemVerilog](https://img.shields.io/badge/-SystemVerilog-blue?style=flat-square) · `Updated last week`
+### 🔷 [AXI4-N-M-Crossbar-Interconnect](https://github.com/kiran7904/AXI4-N-M-Crossbar-Interconnect) · 
+
+![SystemVerilog](https://img.shields.io/badge/-SystemVerilog-blue?style=flat-square)
+
+ · `Updated last week`
 
 > Multi-master, multi-slave AXI4 crossbar interconnect — plug-compatible with the RV32I core.
 
@@ -80,26 +120,36 @@ RTL Design Engineer and B.Tech ECE graduate (2026) with hands-on experience taki
 | **Architecture** | N-master : M-slave non-blocking crossbar with round-robin arbitration |
 | **Protocol** | Full AXI4 channel compliance (AW/W/B/AR/R) |
 | **Integration** | Designed to accept `rv32i_core`'s AXI4-Lite master ports as slave inputs |
+| **Backend** | Gate-level synthesis via Yosys; placement, routing, PPA analysis in OpenROAD |
 | **Tapeout** | ✅ Sky130B · 100 MHz · zero timing violations |
 
 ---
 
-### 🔷 [GIFT-64-Cryptographic-Core](https://github.com/kiran7904/GIFT-64-Cryptographic-Core) · ![SystemVerilog](https://img.shields.io/badge/-SystemVerilog-blue?style=flat-square) · `Updated last week`
+### 🔷 [GIFT-64-Cryptographic-Core](https://github.com/kiran7904/GIFT-64-Cryptographic-Core) · 
+
+![SystemVerilog](https://img.shields.io/badge/-SystemVerilog-blue?style=flat-square)
+
+ · `Updated last week`
 
 **Also public:** [gift64-crypto-core](https://github.com/kiran7904/gift64-crypto-core)
 
-> Area-optimized round-based hardware implementation of the GIFT-64 lightweight block cipher.
+> Area-optimized round-based hardware implementation of the GIFT-64 lightweight block cipher — RTL through backend tapeout.
 
 | Aspect | Detail |
 |---|---|
 | **Algorithm** | GIFT-64: 64-bit block · 128-bit key · 28 rounds · nibble S-box + bit permutation |
 | **Mode** | Runtime encrypt/decrypt selection with inverse S-box & permutation |
-| **Verification** | Cocotb testbench — full encrypt → decrypt → plaintext recovery check |
-| **Tapeout** | ✅ 3,409 cells · 36,036 µm² · Sky130B |
+| **Verification** | Cocotb + self-checking SV testbench — full encrypt → decrypt → plaintext recovery check |
+| **Backend** | Floorplanning, placement density tuning, CTS buffer insertion; validated via OpenSTA |
+| **Tapeout** | ✅ 3,409 cells · 36,036 µm² · Sky130B · zero DRC/LVS violations |
 
 ---
 
-### 🔷 [axi4-lite-slave-ip](https://github.com/kiran7904/axi4-lite-slave-ip) · ![SystemVerilog](https://img.shields.io/badge/-SystemVerilog-blue?style=flat-square)
+### 🔷 [axi4-lite-slave-ip](https://github.com/kiran7904/axi4-lite-slave-ip) · 
+
+![SystemVerilog](https://img.shields.io/badge/-SystemVerilog-blue?style=flat-square)
+
+
 
 > Parameterized AMBA AXI4-Lite slave IP with byte-enable and SLVERR support.
 
@@ -111,7 +161,11 @@ RTL Design Engineer and B.Tech ECE graduate (2026) with hands-on experience taki
 
 ---
 
-### 🔷 [Systolic-Mac-Array-Verification-Using-SystemVerilog](https://github.com/kiran7904/Systolic-Mac-Array-Verification-Using-SystemVerilog) · ![SystemVerilog](https://img.shields.io/badge/-SystemVerilog-blue?style=flat-square)
+### 🔷 [Systolic-Mac-Array-Verification-Using-SystemVerilog](https://github.com/kiran7904/Systolic-Mac-Array-Verification-Using-SystemVerilog) · 
+
+![SystemVerilog](https://img.shields.io/badge/-SystemVerilog-blue?style=flat-square)
+
+
 
 > 4×4 weight-stationary systolic MAC array with a full OOP-style verification environment.
 
@@ -125,7 +179,15 @@ RTL Design Engineer and B.Tech ECE graduate (2026) with hands-on experience taki
 
 ---
 
-### 🔷 [Low-Pass-Butterworth-FIR-Filter](https://github.com/kiran7904/Low-Pass-Butterworth-FIR-Filter) · ![SystemVerilog](https://img.shields.io/badge/-SystemVerilog-blue?style=flat-square) ![MATLAB](https://img.shields.io/badge/-MATLAB-orange?style=flat-square)
+### 🔷 [Low-Pass-Butterworth-FIR-Filter](https://github.com/kiran7904/Low-Pass-Butterworth-FIR-Filter) · 
+
+![SystemVerilog](https://img.shields.io/badge/-SystemVerilog-blue?style=flat-square)
+
+ 
+
+![MATLAB](https://img.shields.io/badge/-MATLAB-orange?style=flat-square)
+
+
 
 > Butterworth low-pass FIR filter design — coefficients generated in MATLAB, RTL implemented in SystemVerilog/Verilog.
 
@@ -136,7 +198,11 @@ RTL Design Engineer and B.Tech ECE graduate (2026) with hands-on experience taki
 
 ---
 
-### 🔷 [VeriLogicLab](https://github.com/kiran7904/VeriLogicLab) · ![Verilog](https://img.shields.io/badge/-Verilog-green?style=flat-square) · ⭐ 2 · `160 commits`
+### 🔷 [VeriLogicLab](https://github.com/kiran7904/VeriLogicLab) · 
+
+![Verilog](https://img.shields.io/badge/-Verilog-green?style=flat-square)
+
+ · ⭐ 2 · `160 commits`
 
 > My RTL learning lab — a growing collection of digital design implementations.
 
@@ -175,7 +241,11 @@ RTL Design Engineer and B.Tech ECE graduate (2026) with hands-on experience taki
 
 <div align="center">
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=kiran7904&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
+[
+
+![GitHub Streak](https://streak-stats.demolab.com?user=kiran7904&theme=tokyonight&hide_border=true)
+
+](https://git.io/streak-stats)
 
 </div>
 
@@ -185,37 +255,57 @@ RTL Design Engineer and B.Tech ECE graduate (2026) with hands-on experience taki
 
 | | Achievement |
 |---|---|
-| 🎯 | **Every project independently taped out** on Sky130B PDK via OpenLane — RV32I Core · AXI4 Crossbar · GIFT-64 · AXI4-Lite Slave · Systolic MAC · FIR Filter — all at 100 MHz, zero violations |
+| 🎯 | **Every RTL project independently taped out** on Sky130B PDK via OpenLane — RV32I Core · AXI4 Crossbar · GIFT-64 · AXI4-Lite Slave · Systolic MAC · FIR Filter — all at 100 MHz, zero violations |
+| ⚙️ | **Physical design timing closure** on the Ariane RISC-V CPU (Nangate45, OpenROAD) — closed setup TNS from −67k ns to +0.4 ns positive slack, zero hold violations, at 450 MHz |
 | 📄 | **Co-author**: *Interface Trap-Induced Performance Degradation in Fishbone FET* — **IEEE Transactions on Electron Devices** (Accepted) |
 | 💡 | **160 commits** in VeriLogicLab · **18 commits** in RV32I pipeline · **70+ HDLBits** problems solved |
-| 🎓 | NPTEL: VLSI Design Flow · Physical Design · SystemVerilog for Verification — Siemens EDA |
+| 🎓 | NPTEL: VLSI Design Flow (RTL-to-GDS) · VLSI Physical Design with Timing Analysis · Siemens EDA: SystemVerilog for Design & Verification |
 
 ---
 
 ## 💼 Experience
 
-**Digital IC Design Intern — DeepGrid Semi Pvt. Ltd.**  `Nov 2025 – Apr 2026`
-- Designed **AXI4 multi-master arbiter** for a dual-hart RISC-V Edge-AI SoC
-- Implemented **IOPMP (I/O Physical Memory Protection)** module per RISC-V IOPMP spec
+**Digital IC Design Intern — DeepGrid Semi Pvt. Ltd., T-Hub, Hyderabad**  `Nov 2025 – Apr 2026`
+- Designed the **AXI4 interconnect fabric** for a dual-hart RISC-V edge-AI SoC — weighted round-robin arbitration and address-based routing, resolving data-width mismatches across multiple IP blocks
+- Implemented a **16-region IOPMP** hardware security module per the RISC-V IOPMP spec to enforce memory access policies
+- Authored timing-driven **SDC constraints** and embedded **SVA assertions**; ran logic synthesis and STA to confirm layout timing feasibility ahead of floorplanning
+- Debugged **7 integration issues** at subsystem boundaries by analyzing GTKWave waveforms to align AXI channel handshakes
+- Automated RTL linting and synthesis scripts with **Verible** and **Tcl**
 
 **Device Modeling Research Intern — NIT Warangal** `May 2025 – Jul 2025`
-- TCAD characterization of **sub-3nm Fishbone FET** devices (interface trap analysis)
-- Co-authored paper: *IEEE Transactions on Electron Devices* (Accepted)
+- Conducted TCAD electrical characterization of **sub-3nm Fishbone FET** devices — interface trap analysis, subthreshold swing, transistor-level electrostatics
+- Co-authored a manuscript accepted by **IEEE Transactions on Electron Devices**
 
 ---
 
 ## 📫 Let's Connect
 
-I'm actively looking for **RTL Design / SoC Architecture / Verification** roles.  
-If you're working on RISC-V, digital design, or open-source EDA — I'd love to talk.
+I'm actively looking for **RTL Design / Physical Design / SoC Architecture / Verification** roles.
+If you're working on RISC-V, digital design, physical implementation, or open-source EDA — I'd love to talk.
 
 <div align="center">
 
-[![Email](https://img.shields.io/badge/kirankumarsiripurapu93%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kirankumarsiripurapu93@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/kiran--kumar--siripurapu-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kiran-kumar-siripurapu)
-[![Portfolio](https://img.shields.io/badge/kiran--mu.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://kiran-mu.vercel.app/)
+[
+
+![Email](https://img.shields.io/badge/kirankumarsiripurapu93%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)
+
+](mailto:kirankumarsiripurapu93@gmail.com)
+[
+
+![LinkedIn](https://img.shields.io/badge/kiran--kumar--siripurapu-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)
+
+](https://www.linkedin.com/in/kiran-kumar-siripurapu)
+[
+
+![Portfolio](https://img.shields.io/badge/kiran--mu.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white)
+
+](https://kiran-mu.vercel.app/)
+
+
 
 ![Profile Views](https://komarev.com/ghpvc/?username=kiran7904&color=0e75b6&style=flat-square)
+
+
 
 </div>
 
@@ -223,6 +313,6 @@ If you're working on RISC-V, digital design, or open-source EDA — I'd love to 
 
 <div align="center">
 
-*Made with ❤️ for open-source silicon · Taped out on Sky130 PDK*
+*Made with ❤️ for open-source silicon · RTL-to-GDS across Sky130, Nangate45 & ASAP7*
 
 </div>
